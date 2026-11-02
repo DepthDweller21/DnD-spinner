@@ -1,0 +1,137 @@
+[
+    {
+        "tag": "human",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "elf",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "dwarf",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "demon",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "angel",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "orc",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "goblin",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "golem",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "vampire",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "centaur",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "skeleton",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "werewolf",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "dryad",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "nymph",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "titan",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "halfling",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "ent",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "reptillian",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "minotaur",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "eldrich horror",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "ghost",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "spirit",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "beastkin",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "ogre",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "dragon",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "fey",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "nucleite",
+        "run": [],
+        "attribute": []
+    }
+]

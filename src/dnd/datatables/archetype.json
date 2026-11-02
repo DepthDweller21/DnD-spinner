@@ -1,0 +1,172 @@
+[
+    {
+        "tag": "npc",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "slayer",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "desciple",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "survivalist",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "archeologist",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "tamer",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "alchemist",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "rider",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "priest",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "gambler",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "goliath",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "pirate",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "tarot beleiver",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "gladiator",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "mage",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "royal",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "apostle",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "mutant",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "resiliant",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "equaliser",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "assassin",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "paladin",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "druid",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "cursed",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "collosal warmech",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "false diety",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "vessel",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "warlord",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "aura farmer",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "primordial champion",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "champion's legacy",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "doombringer",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "trickster",
+        "run": [],
+        "attribute": []
+    },
+    {
+        "tag": "hybrid",
+        "run": [],
+        "attribute": []
+    }
+]
