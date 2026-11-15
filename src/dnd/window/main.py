@@ -47,11 +47,16 @@ def main() -> None:
 
             if event.type == pygame_gui.UI_BUTTON_PRESSED:  # noqa: SIM102
                 if event.ui_element == roll_button:
-                    rolls = start()
-                    lines = [
-                        f"<b>{roll['category']}</b>: {roll['tag']}"
-                        for roll in rolls
-                    ]
+
+
+                    lines = []
+
+                    while (roll := start()) is not None:
+                        lines.append(
+                            f"<b>{roll["category"]}</b>: {roll['tag']}"
+                        )
+
+
                     results.set_text("<br>".join(lines))
 
             manager.process_events(event)

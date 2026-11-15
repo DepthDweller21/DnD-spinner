@@ -1,4 +1,5 @@
 import random
+from unicodedata import category
 
 from dnd.engine.utils.modifyFile import copyFile
 
@@ -42,10 +43,10 @@ def selectRandom(value,algorithm,step=0):
 def reset() -> None:
     copyFile("temptables/newCharacter","temptables/character")
 
-def start() -> list:
+def start():
     # reset()
 
-    rolls=[]
+    # rolls=[]
     # rolls.append(selectRandom("race","uniform"))
     # rolls.append(selectRandom("speed","uniform"))
     # rolls.append(selectRandom("strength","uniform"))
@@ -55,8 +56,8 @@ def start() -> list:
     # rolls.append(selectRandom("weapon","uniform"))
     # rolls.append(selectRandom("weaponMastery","uniform"))
     # rolls.append(selectRandom("archetype","uniform"))
-    rollNext()
-    return rolls
+    roll = rollNext()
+    return roll
 
 def rollNext():
 
@@ -64,10 +65,10 @@ def rollNext():
     if(len(character["nextRolls"])==0):
         print("thas all folks")
         reset()
+        return None
     else:
         nextRoll = character["nextRolls"].pop(0)
 
-        selectRandom(nextRoll,character[nextRoll])
+        roll = selectRandom(nextRoll,character[nextRoll])
         write("temptables/character",character,True)
-
-    return
+        return {"category":nextRoll,"tag":roll["tag"]}
