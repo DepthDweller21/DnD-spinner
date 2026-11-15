@@ -1,56 +1,92 @@
 [
     {
-        "tag": "inept"
+        "tag": "inept",
+        "run": [],
+        "attribute": []
     },
     {
-        "tag": "clumsy"
+        "tag": "clumsy",
+        "run": [],
+        "attribute": []
     },
     {
-        "tag": "untrained"
+        "tag": "untrained",
+        "run": [],
+        "attribute": []
     },
     {
-        "tag": "novice"
+        "tag": "novice",
+        "run": [],
+        "attribute": []
     },
     {
-        "tag": "apprentice"
+        "tag": "apprentice",
+        "run": [],
+        "attribute": []
     },
     {
-        "tag": "competent"
+        "tag": "competent",
+        "run": [],
+        "attribute": []
     },
     {
-        "tag": "trained"
+        "tag": "trained",
+        "run": [],
+        "attribute": []
     },
     {
-        "tag": "skilled"
+        "tag": "skilled",
+        "run": [],
+        "attribute": []
     },
     {
-        "tag": "proficient"
+        "tag": "proficient",
+        "run": [],
+        "attribute": []
     },
     {
-        "tag": "veteran"
+        "tag": "veteran",
+        "run": [],
+        "attribute": []
     },
     {
-        "tag": "expert"
+        "tag": "expert",
+        "run": [],
+        "attribute": []
     },
     {
-        "tag": "elite"
+        "tag": "elite",
+        "run": [],
+        "attribute": []
     },
     {
-        "tag": "master"
+        "tag": "master",
+        "run": [],
+        "attribute": []
     },
     {
-        "tag": "grandmaster"
+        "tag": "grandmaster",
+        "run": [],
+        "attribute": []
     },
     {
-        "tag": "legendary"
+        "tag": "legendary",
+        "run": [],
+        "attribute": []
     },
     {
-        "tag": "peerless"
+        "tag": "peerless",
+        "run": [],
+        "attribute": []
     },
     {
-        "tag": "mythic"
+        "tag": "mythic",
+        "run": [],
+        "attribute": []
     },
     {
-        "tag": "transcendent"
+        "tag": "transcendent",
+        "run": [],
+        "attribute": []
     }
 ]

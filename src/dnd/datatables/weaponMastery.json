@@ -1,56 +1,92 @@
 [
     {
-        "tag": "inept"
+        "tag": "inept",
+        "attribute": [],
+        "run": []
     },
     {
-        "tag": "clumsy"
+        "tag": "clumsy",
+        "attribute": [],
+        "run": []
     },
     {
-        "tag": "untrained"
+        "tag": "untrained",
+        "attribute": [],
+        "run": []
     },
     {
-        "tag": "novice"
+        "tag": "novice",
+        "attribute": [],
+        "run": []
     },
     {
-        "tag": "apprentice"
+        "tag": "apprentice",
+        "attribute": [],
+        "run": []
     },
     {
-        "tag": "competent"
+        "tag": "competent",
+        "attribute": [],
+        "run": []
     },
     {
-        "tag": "trained"
+        "tag": "trained",
+        "attribute": [],
+        "run": []
     },
     {
-        "tag": "skilled"
+        "tag": "skilled",
+        "attribute": [],
+        "run": []
     },
     {
-        "tag": "proficient"
+        "tag": "proficient",
+        "attribute": [],
+        "run": []
     },
     {
-        "tag": "veteran"
+        "tag": "veteran",
+        "attribute": [],
+        "run": []
     },
     {
-        "tag": "expert"
+        "tag": "expert",
+        "attribute": [],
+        "run": []
     },
     {
-        "tag": "elite"
+        "tag": "elite",
+        "attribute": [],
+        "run": []
     },
     {
-        "tag": "master"
+        "tag": "master",
+        "attribute": [],
+        "run": []
     },
     {
-        "tag": "grandmaster"
+        "tag": "grandmaster",
+        "attribute": [],
+        "run": []
     },
     {
-        "tag": "legendary"
+        "tag": "legendary",
+        "attribute": [],
+        "run": []
     },
     {
-        "tag": "peerless"
+        "tag": "peerless",
+        "attribute": [],
+        "run": []
     },
     {
-        "tag": "mythic"
+        "tag": "mythic",
+        "attribute": [],
+        "run": []
     },
     {
-        "tag": "transcendent"
+        "tag": "transcendent",
+        "attribute": [],
+        "run": []
     }
 ]

@@ -1,0 +1,12 @@
+{
+    "archetype":{"weightage":"uniform"},
+    "defence":{"weightage":"uniform"},
+    "fight":{"weightage":"uniform"},
+    "race":{"weightage":"uniform"},
+    "smart":{"weightage":"uniform"},
+    "speed":{"weightage":"uniform"},
+    "strength":{"weightage":"uniform"},
+    "weapon":{"weightage":"uniform"},
+    "weaponMastery":{"weightage":"uniform"},
+    "nextRolls":[]
+}

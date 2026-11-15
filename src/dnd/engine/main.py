@@ -1,5 +1,7 @@
 import random
 
+from dnd.engine.utils.modifyFile import copyFile
+
 from .utils.debug import *
 from .utils.loadFile import *
 
@@ -36,8 +38,13 @@ def selectRandom(value,algorithm,step=0):
     roll["category"]=value
     return roll
 
+def reset() -> None:
+    copyFile("temptables/newCharacter.json","temptables/character.json")
 
 def start() -> list:
+    reset()
+
+
     rolls=[]
     rolls.append(selectRandom("race","uniform"))
     rolls.append(selectRandom("speed","uniform"))
@@ -49,3 +56,7 @@ def start() -> list:
     rolls.append(selectRandom("weaponMastery","uniform"))
     rolls.append(selectRandom("archetype","uniform"))
     return rolls
+
+def rollNext():
+    
+    return
