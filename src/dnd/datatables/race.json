@@ -6,7 +6,9 @@
     },
     {
         "tag": "elf",
-        "run": [],
+        "run": [
+            {"elf-race":"uniform"}
+        ],
         "attribute": []
     },
     {

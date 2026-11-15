@@ -4,6 +4,7 @@ from dnd.engine.utils.modifyFile import copyFile
 
 from .utils.debug import *
 from .utils.loadFile import *
+from .utils.modifyFile import *
 
 
 def applyGraph(algorithm,weights,step):
@@ -39,24 +40,34 @@ def selectRandom(value,algorithm,step=0):
     return roll
 
 def reset() -> None:
-    copyFile("temptables/newCharacter.json","temptables/character.json")
+    copyFile("temptables/newCharacter","temptables/character")
 
 def start() -> list:
-    reset()
-
+    # reset()
 
     rolls=[]
-    rolls.append(selectRandom("race","uniform"))
-    rolls.append(selectRandom("speed","uniform"))
-    rolls.append(selectRandom("strength","uniform"))
-    rolls.append(selectRandom("defence","uniform"))
-    rolls.append(selectRandom("smart","uniform"))
-    rolls.append(selectRandom("fight","uniform"))
-    rolls.append(selectRandom("weapon","uniform"))
-    rolls.append(selectRandom("weaponMastery","uniform"))
-    rolls.append(selectRandom("archetype","uniform"))
+    # rolls.append(selectRandom("race","uniform"))
+    # rolls.append(selectRandom("speed","uniform"))
+    # rolls.append(selectRandom("strength","uniform"))
+    # rolls.append(selectRandom("defence","uniform"))
+    # rolls.append(selectRandom("smart","uniform"))
+    # rolls.append(selectRandom("fight","uniform"))
+    # rolls.append(selectRandom("weapon","uniform"))
+    # rolls.append(selectRandom("weaponMastery","uniform"))
+    # rolls.append(selectRandom("archetype","uniform"))
+    rollNext()
     return rolls
 
 def rollNext():
-    
+
+    character = load("character","temptables")
+    if(len(character["nextRolls"])==0):
+        print("thas all folks")
+        reset()
+    else:
+        nextRoll = character["nextRolls"].pop(0)
+
+        selectRandom(nextRoll,character[nextRoll])
+        write("temptables/character",character,True)
+
     return

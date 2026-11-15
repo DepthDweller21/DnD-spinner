@@ -8,5 +8,5 @@
     "strength":{"weightage":"uniform"},
     "weapon":{"weightage":"uniform"},
     "weaponMastery":{"weightage":"uniform"},
-    "nextRolls":[]
+    "nextRolls":["race","speed","strength","defence","smart","fight","weapon","weaponMastery","archetype"]
 }

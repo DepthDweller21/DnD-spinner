@@ -9,7 +9,7 @@ def read(fileName,path=False):
         with open(BASE_DIR / "datatables" / f"{fileName}.json", "r") as file:
             data = json.load(file)
     else:
-        with open(BASE_DIR / f"{fileName}", "r") as file:
+        with open(BASE_DIR / f"{fileName}.json", "r") as file:
             data = json.load(file)
     
     return data
@@ -21,7 +21,7 @@ def write(fileName, new_data,path=False):
         with open(BASE_DIR / "datatables" / f"{fileName}.json", "w") as file:
             json.dump(new_data, file, indent=4)
     else:
-        with open(BASE_DIR / f"{fileName}", "w") as file:
+        with open(BASE_DIR / f"{fileName}.json", "w") as file:
             json.dump(new_data, file, indent=4)
     
     return True

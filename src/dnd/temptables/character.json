@@ -25,5 +25,16 @@
     },
     "weaponMastery": {
         "weightage": "uniform"
-    }
+    },
+    "nextRolls": [
+        "race",
+        "speed",
+        "strength",
+        "defence",
+        "smart",
+        "fight",
+        "weapon",
+        "weaponMastery",
+        "archetype"
+    ]
 }
